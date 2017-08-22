@@ -1,0 +1,16 @@
+title: gaffer.co
+email: info@gaffer.co
+description: "tactically football news & stats"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+instagram_username: gaffer_co
+
+# Build settings
+markdown: kramdown
+livereload: true
+sgems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
