@@ -14,3 +14,14 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  
+collections:
+  clubs:
+    output: true
+
+defaults:
+  - scope:
+      path: "_clubs"
+      type: clubs
+    values:
+      layout: club

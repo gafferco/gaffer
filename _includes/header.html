@@ -26,6 +26,11 @@
             {% endif %}
           {% endfor %}
         </div>
+          <ul>
+          {% for club in site.clubs %}
+              <li><a class="post-link" href="{{ club.url | relative_url }}">{{ club.title }}</a></li>
+          {% endfor %}
+        </ul>
       </nav>
     {% endif %}
   </div>

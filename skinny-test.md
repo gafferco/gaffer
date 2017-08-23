@@ -1,5 +1,4 @@
 ---
-layout: skinny-test
 title: Skinny
 permalink: /skinny/
 ---
